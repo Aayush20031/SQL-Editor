@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+}
+
+body.dark-mode {
+    background-color: #1a202c; /* Dark background */
+    color: white; /* Light text color */
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    padding: 20px; /* Add padding */
+    animation: gradients 20s ease infinite; /* Ensure animation is applied */
+}
+
+@keyframes gradients {
+    0%   {background-position: 0% 0%;}
+    25%  {background-position: 50% 0%;}
+    50%  {background-position: 100% 0%;}
+    75%  {background-position: 50% 0%;}
+    100% {background-position: 0% 0%;}
+}
+
+.mx-10 {
+    margin-left: 2.5rem; /* Custom margin */
+    margin-right: 2.5rem; /* Custom margin */
+}
+
+.text-gray-500 {
+    color: #4a5568; /* Darker gray for text */
+}
+
+.bg-white {
+    background-color: #ffffff; /* White background for components */
+}
+
+.bg-indigo-500 {
+    background-color: #e7ac72; /* Custom indigo color */
+}
+
+.bg-indigo-600 {
+    background-color: #4c51bf; /* Darker indigo for hover */
+}
+
+.hover\:bg-indigo-600:hover {
+    background-color: #4c51bf; /* Darker indigo on hover */
+}
+
+.rounded-2xl {
+    border-radius: 1rem; /* Custom border radius */
+}
+
+/* Button styles */
+button {
+    background-color: #5a67d8; /* Button background */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #4c51bf; /* Darker on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Card styles */
+.customer-box, .supplier-box, .product-box {
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background-color: white; /* Background color for boxes */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for smooth effects */
+}
+
+.customer-box:hover, .supplier-box:hover, .product-box:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Responsive design adjustments can be added here */

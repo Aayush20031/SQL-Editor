@@ -8,10 +8,10 @@ This is a REACT SQL Editor built using ReactJs and TailwindCSS.
 
 ## 👨‍💻 Live Demo
 
-<a href="https://github.com/sambitos23/react-sql-editor" target="blank">
+<a href="https://github.com/Aayush20031/SQL-Editor" target="blank">
 </a>
 
-Try out the website : [REACT SQL Editor](https://react-sql-editor-beta.vercel.app/)
+Try out the website : [REACT SQL Editor](https://sql-editor-three.vercel.app/)
 
 ## 👨‍🔧 Tech Stack
 

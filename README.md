@@ -4,7 +4,7 @@
 
 Create, design and implement a web-based application capable of running SQL queries and displaying the results of said query. The application must include a space which accepts SQL queries in the form of user inputs, then runs the given query, and displays the result within the application..
 
-This is a REACT SQL Editor built using ReactJs and TailwindCSS.
+This is a REACT SQL Editor built using ReactJs.
 
 ## 👨‍💻 Live Demo
 
@@ -22,7 +22,6 @@ Try out the website : [REACT SQL Editor](https://sql-editor-three.vercel.app/)
 - **_react-ace_**
 - **_react-csv_**
 - **_react-hot-toast_**
-- **_tailwind-scrollbar-hide_**
 
 ## 👨‍💻 Features
 

@@ -47,7 +47,7 @@ Page Load time of this website in desktop is in the range of 0.4 s to 0.6s.
 
 Laptop performance : Optimized
 
-## 🪜 Steps I took to optimize the page load time
+## Steps I took to optimize the page load time
 
 -Utilized Lighthouse DevTools Extension to identify performance issues and implemented actionable recommendations for optimization.
 

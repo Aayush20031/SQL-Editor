@@ -32,7 +32,7 @@ function App() {
       value.toLowerCase() ===
       "select contact_name, address,city,postal_code, country from customers limit 18;"
     ) {
-      setDefaults(4);
+      setDefaults(4); 
     }else {
       setDefaults(0);
     }
@@ -52,7 +52,7 @@ function App() {
               </div>
               <Buttons
                 setQuery={setQuery}
-                setHeaders={setHeaders}
+                 setHeaders={setHeaders}
                 setRows={setRows}
                 setCSVData={setCSVData}
                 value={value}

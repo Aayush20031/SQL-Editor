@@ -4,26 +4,24 @@
 
 Create, design and implement a web-based application capable of running SQL queries and displaying the results of said query. The application must include a space which accepts SQL queries in the form of user inputs, then runs the given query, and displays the result within the application..
 
-This is a REACT SQL Editor built using ReactJs and TailwindCSS.
+This is a REACT SQL Editor built using ReactJs.
 
 ## 👨‍💻 Live Demo
 
-<a href="https://github.com/sambitos23/react-sql-editor" target="blank">
+<a href="https://github.com/Aayush20031/SQL-Editor" target="blank">
 </a>
 
-Try out the website : [REACT SQL Editor](https://react-sql-editor-beta.vercel.app/)
+Try out the website : [REACT SQL Editor](https://sql-editor-three.vercel.app/)
 
 ## 👨‍🔧 Tech Stack
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## ⚙️ Dependencies
 
 - **_react-ace_**
 - **_react-csv_**
 - **_react-hot-toast_**
-- **_tailwind-scrollbar-hide_**
 
 ## 👨‍💻 Features
 
@@ -47,7 +45,7 @@ Page Load time of this website in desktop is in the range of 0.4 s to 0.6s.
 
 Laptop performance : Optimized
 
-## 🪜 Steps I took to optimize the page load time
+## Steps I took to optimize the page load time
 
 -Utilized Lighthouse DevTools Extension to identify performance issues and implemented actionable recommendations for optimization.
 
